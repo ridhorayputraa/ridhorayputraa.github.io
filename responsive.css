@@ -57,7 +57,7 @@
       top: 80px;
       left: -1000px;
       text-align: center;
-      transition: all 0.8s;
+      transition: all 0.5s;
     }
     nav ul li{
       display: block;
@@ -68,7 +68,8 @@
     nav ul li a{
       font-size: 20px;
     }
-    a:hover, a.active{
+    .active, li a:hover{
+      transition: 0.5s;
       background: none;
       color: #0082e6;
     }
@@ -155,7 +156,7 @@
       top: 60px;
       left: -1000px;
       text-align: center;
-      transition: all .5s;
+      transition: all 0.5s;
     }
     nav ul li{
       display: block;
@@ -165,8 +166,10 @@
     }
     nav ul li a{
       font-size: 20px;
+      
     }
-    a:hover, a.active{
+    .active, li a:hover{
+      transition: 0.5s;
       background: none;
       color: #0082e6;
     }

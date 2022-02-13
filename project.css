@@ -11,11 +11,9 @@
     
 }
 
-html{
-  overflow-x:hidden;
-  
+body{
+  overflow-x: hidden;
 }
-
 
 nav{
     height: 80px;

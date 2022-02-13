@@ -57,7 +57,7 @@
       top: 80px;
       left: -1000px;
       text-align: center;
-      transition: all 0.8s;
+      transition: all 0.5s;
     }
     nav ul li{
       display: block;
@@ -155,7 +155,7 @@
       top: 60px;
       left: -1000px;
       text-align: center;
-      transition: all .5s;
+      transition: all 0.5s;
     }
     nav ul li{
       display: block;
@@ -167,6 +167,7 @@
       font-size: 20px;
     }
     a:hover, a.project{
+      
       background: none;
       color: #0082e6;
     }
