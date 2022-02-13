@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&display=swap');
+@import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Nunito:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+html{
+  overflow-x:hidden;
+  
+}
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: rgb(235, 228, 228);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    position: relative;
+    left: 147px;
+    width: 130px;
+    height: 28px;
+    top: 28px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 0px 20px;
+    
+}
+
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 33px;
+}
+.active{
+    opacity: 1;
+}
+.project:hover{
+    opacity: 0.8;
+}
+.project,a:hover{
+    transition: 0.5s;
+    background: #c4c4c4;
+    
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.grid {
+  position: relative;
+  top: 80px;
+  display: grid;
+  width: 110em;
+  margin:140px;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 6fr));
+  align-items: start;
+}
+
+.grid-item {
+  
+  
+  overflow: hidden;
+
+  
+  transition: 0.2s;
+}
+
+.card-img:hover {
+ opacity: 0.8;
+}
+
+.card-img {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+
+  padding: 3rem;
+}
+
+
+.text-pro{
+    color: #181A18  ;
+    position: relative;
+    top: 150px;
+    left: 690px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-pro:hover{
+  opacity: 0.8;
+}
+
+.hr{
+    position: relative;
+    top: 249px;
+    font-weight: bold;
+    left: 159px;
+    width: 132px;
+    color: black;
+
+}
+
+.design{
+  color: #181A18 ;
+  position: relative;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.desgin:hover{
+  opacity: 0.8;
+}
+
+.text-Design{
+  position: relative;
+  top: 230px;
+  left: 159px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-Design:hover{
+  opacity: 0.8;
+}
+.poto1{
+  position: relative;
+  left: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Nunito", sans-serif;
+}
+.poto2{
+  position: relative;
+  font-weight: bold;
+  font-size: 22px;
+  left: 15px;
+  font-family: "Nunito", sans-serif;
+}
+.my{
+  color: #181a18d3;
+  position: relative;
+  font-weight: bold;
+  font-size: 14px;
+  left: 15px;
+  font-family: "Nunito", Arial;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.my:hover{
+  opacity: 0.8;
+}
+
+
+
+/*mac*/
+@media  (max-width:1281px){
+  .text-pro{
+    position: relative;
+    left: 580px;
+  }
+
+
+  /*tab*/
+
+}
+@media (max-width: 885px){
+ .text-pro{
+   position: relative;
+   left: 1040px;
+ }
+  .text-Design{
+    font-size: 300px;
+  }
+
+  .content{
+    position: relative;
+   
+    left: -659px;
+    margin: auto;
+  }
+ 
+ .grid-item{
+   position: relative;
+   top: 350px;
+
+ }
+
+.design{
+  position: relative;
+  left: -120px;
+  
+  
+}
+
+.text-Design{
+  font-size: 20px;
+}
+.hr{
+  width: 134px;
+  position: relative;
+  top: 245px;
+}
+
+.grid{
+  top: -280px;
+  margin: -55px;
+  grid-gap: 98rem;
+  position: relative;
+  left: -10px;
+  display: inline-block;
+  margin-bottom: -90px;
+}
+.main {
+  margin-top: 200px;
+ padding: 5rem;
+ 
+}
+
+
+}
+
+/*ipad*/
+@media (max-width: 850px){
+  .text-pro{
+    position: relative;
+    left: 690px;
+  }
+   .text-Design{
+     font-size: 300px;
+   }
+ 
+   .content{
+     position: relative;
+    
+     left: -659px;
+     margin: auto;
+   }
+  
+  .grid-item{
+    position: relative;
+    top: 350px;
+ 
+  }
+ 
+ .design{
+   position: relative;
+   left: -120px;
+   
+   
+ }
+ 
+ .text-Design{
+   font-size: 20px;
+ }
+ .hr{
+   width: 134px;
+   position: relative;
+   top: 245px;
+ }
+ 
+ .grid{
+   top: -280px;
+   margin: -55px;
+   grid-gap: 98rem;
+   position: relative;
+   left: -10px;
+   display: inline-block;
+   margin-bottom: -90px;
+ }
+ .main {
+   margin-top: 200px;
+  padding: 5rem;
+  
+ }
+ 
+ 
+ }
+
+ /*Smartphone*/
+ @media all and (max-width: 666px){
+.wide{
+  position: relative;
+  top: -60px;
+}
+.text-pro{
+  position: relative;
+  left: 690px;
+}
+
+  .content{
+    position: relative;
+    left: -659px;
+   
+  }
+ 
+ .grid-item{
+   overflow: hidden;
+   position: relative;
+   top:120px;
+   overflow: hidden;
+ }
+
+.design{
+  position: relative;
+  left: -120px;
+  
+  
+}
+
+.text-Design{
+  font-size: 20px;
+}
+.hr{
+  width: 134px;
+  position: relative;
+  top: 245px;
+}
+
+.grid{
+  position: relative;
+  margin: -45px;
+  top: 100px;
+}
+ }
+
+  /*Smartphone*/
+  @media all and (max-width: 330px){
+   .wide{
+     position: relative;
+     top: -60px;
+   }
+    .text-pro{
+      position: relative;
+      left: 690px;
+    }
+    
+      .content{
+        position: relative;
+        left: -659px;
+       
+      }
+     
+     .grid-item{
+       overflow: hidden;
+       position: relative;
+       top:190px;
+       overflow: hidden;
+     }
+    
+    .design{
+      position: relative;
+      left: -120px;
+      
+      
+    }
+    
+    .text-Design{
+      font-size: 20px;
+    }
+    .hr{
+      width: 134px;
+      position: relative;
+      top: 245px;
+    }
+    
+    .grid{
+      position: relative;
+      margin: -45px;
+      top: 100px;
+    }
+     }
+
+
