@@ -1,3 +1,14 @@
+
+
+
+@media (max-width:1441px){
+  .container{
+    position: relative;
+    left: -70px;
+  }
+}
+
+
 @media (max-width: 1280px){
 .container{
   position: relative;
@@ -8,6 +19,46 @@
   left: 850px;
 }
 }
+
+@media (max-width:1200px){
+  .photo{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    left: 450px;
+  }
+}
+
+@media (max-width: 1115px){
+  .photo{
+    position: relative;
+    left: 450px;
+    width:  100%;
+    height: 450px;
+    top: -200px;
+  }
+}
+
+@media (max-width:1024px){
+  .photo{
+    position: relative;
+    width: 100%;
+    height: 390px;
+    left: 420px;
+  }
+.container {
+  font-size: 15px;
+  position: relative;
+}
+.textdev {
+  font-size: 58px;
+}
+.textui{
+  font-size: 58px;
+}
+
+}
+
 
 @media (max-width: 885px){
   .container{
@@ -116,8 +167,9 @@
   
   }
 
+  
   /*Smartphone*/
-  @media all and (max-width: 666px){
+  @media  all and (max-width: 666px){
       
     html{
       overflow: auto;
@@ -240,4 +292,3 @@
   
   }
  
-  

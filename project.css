@@ -110,7 +110,7 @@ nav ul li a{
   display: grid;
   width: 110em;
   margin:140px;
-  grid-gap: 2rem;
+  grid-gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 6fr));
   align-items: start;
 }
@@ -142,15 +142,23 @@ nav ul li a{
 }
 
 
+.content{
+  position: relative;
+  left: -188px;
+}
+
 .text-pro{
     color: #181A18  ;
+    
     position: relative;
     top: 150px;
-    left: 690px;
+    left: 875px;
     font-size: 30px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
+
+
 
 .text-pro:hover{
   opacity: 0.8;
@@ -171,6 +179,7 @@ nav ul li a{
   position: relative;
   opacity: 1;
   cursor: pointer;
+  
 }
 
 .desgin:hover{
@@ -218,224 +227,5 @@ nav ul li a{
   opacity: 0.8;
 }
 
-
-
-/*mac*/
-@media  (max-width:1281px){
-  .text-pro{
-    position: relative;
-    left: 580px;
-  }
-
-
-  /*tab*/
-
-}
-@media (max-width: 885px){
- .text-pro{
-   position: relative;
-   left: 1040px;
- }
-  .text-Design{
-    font-size: 300px;
-  }
-
-  .content{
-    position: relative;
-   
-    left: -659px;
-    margin: auto;
-  }
- 
- .grid-item{
-   position: relative;
-   top: 350px;
-
- }
-
-.design{
-  position: relative;
-  left: -120px;
-  
-  
-}
-
-.text-Design{
-  font-size: 20px;
-}
-.hr{
-  width: 134px;
-  position: relative;
-  top: 245px;
-}
-
-.grid{
-  top: -280px;
-  margin: -55px;
-  grid-gap: 98rem;
-  position: relative;
-  left: -10px;
-  display: inline-block;
-  margin-bottom: -90px;
-}
-.main {
-  margin-top: 200px;
- padding: 5rem;
- 
-}
-
-
-}
-
-/*ipad*/
-@media (max-width: 850px){
-  .text-pro{
-    position: relative;
-    left: 690px;
-  }
-   .text-Design{
-     font-size: 300px;
-   }
- 
-   .content{
-     position: relative;
-    
-     left: -659px;
-     margin: auto;
-   }
-  
-  .grid-item{
-    position: relative;
-    top: 350px;
- 
-  }
- 
- .design{
-   position: relative;
-   left: -120px;
-   
-   
- }
- 
- .text-Design{
-   font-size: 20px;
- }
- .hr{
-   width: 134px;
-   position: relative;
-   top: 245px;
- }
- 
- .grid{
-   top: -280px;
-   margin: -55px;
-   grid-gap: 98rem;
-   position: relative;
-   left: -10px;
-   display: inline-block;
-   margin-bottom: -90px;
- }
- .main {
-   margin-top: 200px;
-  padding: 5rem;
-  
- }
- 
- 
- }
-
- /*Smartphone*/
- @media all and (max-width: 666px){
-.wide{
-  position: relative;
-  top: -60px;
-}
-.text-pro{
-  position: relative;
-  left: 690px;
-}
-
-  .content{
-    position: relative;
-    left: -659px;
-   
-  }
- 
- .grid-item{
-   overflow: hidden;
-   position: relative;
-   top:120px;
-   overflow: hidden;
- }
-
-.design{
-  position: relative;
-  left: -120px;
-  
-  
-}
-
-.text-Design{
-  font-size: 20px;
-}
-.hr{
-  width: 134px;
-  position: relative;
-  top: 245px;
-}
-
-.grid{
-  position: relative;
-  margin: -45px;
-  top: 100px;
-}
- }
-
-  /*Smartphone*/
-  @media all and (max-width: 330px){
-   .wide{
-     position: relative;
-     top: -60px;
-   }
-    .text-pro{
-      position: relative;
-      left: 690px;
-    }
-    
-      .content{
-        position: relative;
-        left: -659px;
-       
-      }
-     
-     .grid-item{
-       overflow: hidden;
-       position: relative;
-       top:190px;
-       overflow: hidden;
-     }
-    
-    .design{
-      position: relative;
-      left: -120px;
-      
-      
-    }
-    
-    .text-Design{
-      font-size: 20px;
-    }
-    .hr{
-      width: 134px;
-      position: relative;
-      top: 245px;
-    }
-    
-    .grid{
-      position: relative;
-      margin: -45px;
-      top: 100px;
-    }
-     }
 
 

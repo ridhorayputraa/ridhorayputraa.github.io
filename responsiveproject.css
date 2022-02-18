@@ -1,26 +1,258 @@
-@media (max-width: 1280px){
-.container{
-  position: relative;
-  left: -160px;
-}
-.photo{
-  position: relative;
-  left: 850px;
-}
+@media(min-width:1920px){
+  .content{
+    position: relative;
+    left: 10px;
+  }
 }
 
-@media (max-width: 885px){
-  .container{
+
+
+
+@media (max-width:1440px){
+  .content{
     position: relative;
-    top: -100px;
+    left: -230px;
   }
+}
+/*mac*/
+@media  (max-width:1281px){
+  .content{
+    position: relative;
+    left: -300px;
+  }
+
+
+  /*tab*/
+
+}
+
+@media (max-width:1115px){
+ .content{
+  position: relative;
+  left: -400px;
+ }
+}
+
+/*medium*/
+@media (max-width:1024px){
+  .content{
+    position: relative;
+    left: -420px;
+  }
+}
+
+
+@media (max-width: 885px){
+ .text-pro{
+   position: relative;
+  left: 695px;
+ }
+  .text-Design{
+    font-size: 300px;
+    position: relative;
+  }
+
+  .content{
+    position: relative;
+   
+    left: -659px;
+    margin: auto;
+  }
+ 
+ .grid-item{
+   position: relative;
+   top: 350px;
+
+ }
+
+.design{
+  position: relative;
+  left: -120px;
   
-  .photo{
+  
+}
+
+.text-Design{
+  font-size: 20px;
+}
+.hr{
+  width: 134px;
+  position: relative;
+  top: 245px;
+}
+
+.grid{
+  top: -280px;
+  margin: -55px;
+  grid-gap: 98rem;
+  position: relative;
+  left: -10px;
+  display: inline-block;
+  margin-bottom: -90px;
+}
+.main {
+  margin-top: 200px;
+ padding: 5rem;
+ 
+}
+
+
+}
+
+/*ipad*/
+@media (max-width: 850px){
+  .text-pro{
+    position: relative;
+    left: 690px;
+  }
+   .text-Design{
+     font-size: 300px;
+   }
+ 
+   .content{
      position: relative;
-     top: 200px;
-     left: 280px;
+    
+     left: -659px;
+     margin: auto;
+   }
+  
+  .grid-item{
+    position: relative;
+    top: 350px;
+ 
   }
+ 
+ .design{
+   position: relative;
+   left: -120px;
+   
+   
+ }
+ 
+ .text-Design{
+   font-size: 20px;
+ }
+ .hr{
+   width: 134px;
+   position: relative;
+   top: 245px;
+ }
+ 
+ .grid{
+   top: -280px;
+   margin: -55px;
+   grid-gap: 98rem;
+   position: relative;
+   left: -10px;
+   display: inline-block;
+   margin-bottom: -90px;
+ }
+ .main {
+   margin-top: 200px;
+  padding: 5rem;
+  
+ }
+ 
+ 
+ }
+
+ /*Smartphone*/
+ @media all and (max-width: 666px){
+.wide{
+  position: relative;
+  top: -60px;
+}
+.text-pro{
+  position: relative;
+  left: 690px;
+}
+
+  .content{
+    position: relative;
+    left: -659px;
+   
   }
+ 
+ .grid-item{
+   overflow: hidden;
+   position: relative;
+   top:120px;
+   overflow: hidden;
+ }
+
+.design{
+  position: relative;
+  left: -120px;
+  
+  
+}
+
+.text-Design{
+  font-size: 20px;
+}
+.hr{
+  width: 134px;
+  position: relative;
+  top: 245px;
+}
+
+.grid{
+  position: relative;
+  margin: -45px;
+  top: 100px;
+}
+ }
+
+  /*Smartphone*/
+  @media all and (max-width: 330px){
+   .wide{
+     position: relative;
+     top: -60px;
+   }
+    .text-pro{
+      position: relative;
+      left: 690px;
+    }
+    
+      .content{
+        position: relative;
+        left: -659px;
+       
+      }
+     
+     .grid-item{
+       overflow: hidden;
+       position: relative;
+       top:190px;
+       overflow: hidden;
+     }
+    
+    .design{
+      position: relative;
+      left: -120px;
+      
+      
+    }
+    
+    .text-Design{
+      font-size: 20px;
+    }
+    .hr{
+      width: 134px;
+      position: relative;
+      top: 245px;
+    }
+    
+    .grid{
+      position: relative;
+      margin: -45px;
+      top: 100px;
+    }
+     }
+
+
+
+
 
 @media (max-width: 952px){
     .logo{

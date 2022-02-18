@@ -10,6 +10,11 @@
     
 }
 
+
+
+
+
+
 body{
     overflow-x: hidden;
 }
@@ -35,14 +40,14 @@ nav{
 }
 nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 2px;
     
     
 }
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 0px 5px;
     padding: 0px 20px;
     
 }
@@ -167,7 +172,7 @@ nav ul li a{
 }
 
 .btn{
-    color: #1f161E;
+    color: #292926;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
